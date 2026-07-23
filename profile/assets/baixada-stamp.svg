@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Baixada stamp</title>
+  <desc id="description">An italic brass B on a bordeaux rounded square.</desc>
+  <defs>
+    <linearGradient id="bordeaux" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a2a26"/>
+      <stop offset="1" stop-color="#3a1a18"/>
+    </linearGradient>
+    <radialGradient id="light" cx="35%" cy="18%" r="90%">
+      <stop offset="0" stop-color="#ecd999" stop-opacity=".12"/>
+      <stop offset=".7" stop-color="#ecd999" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="url(#bordeaux)"/>
+  <rect width="512" height="512" rx="92" fill="url(#light)"/>
+  <rect x="29" y="29" width="454" height="454" rx="69" fill="none" stroke="#a88540" stroke-opacity=".72" stroke-width="5"/>
+  <text x="244" y="385" fill="#d4b36a" font-family="'Cormorant Garamond', 'EB Garamond', Georgia, serif" font-size="350" font-style="italic" font-weight="500" letter-spacing="-14" text-anchor="middle">B</text>
+</svg>
