@@ -20,6 +20,7 @@ without checking out the whole house.
 
 | Room | What lives there |
 |---|---|
+| [`design-system`](https://github.com/baixada-cards/design-system) | Brand guidance, canonical tokens, reusable marks, and the shared game-icon family |
 | [`truco-spec`](https://github.com/baixada-cards/truco-spec) | Implementation-neutral rules, schemas, and executable fixtures |
 | [`truco-engine`](https://github.com/baixada-cards/truco-engine) | The authoritative rules engine and conformance implementations |
 | [`truco-solver`](https://github.com/baixada-cards/truco-solver) | CFR solving, policy interchange, experiments, and the research record |
