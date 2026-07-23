@@ -1,0 +1,48 @@
+name: Feature proposal
+description: Propose a focused improvement to a Baixada project
+title: "[Proposal] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the need before prescribing the implementation. Large or cross-repository proposals may begin as a design discussion.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is difficult, missing, or unclear today, and who encounters it?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the observable result without assuming a particular implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Possible approach
+      description: If you have an implementation in mind, outline it and note important tradeoffs.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What workarounds or smaller options have you considered?
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and dependencies
+      description: Identify affected interfaces, rules, repositories, data, or compatibility concerns.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and proposals for similar work.
+          required: true
+        - label: I have not included credentials, private data, or undisclosed security details.
+          required: true

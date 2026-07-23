@@ -1,0 +1,38 @@
+name: Question
+description: Ask about using, understanding, or contributing to a project
+title: "[Question] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use Discussions instead when the repository has Discussions enabled. Suspected vulnerabilities belong in private vulnerability reporting.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to understand or accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include the relevant version, game variant, document, code, or command.
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you have tried
+      description: Note documentation, examples, issues, or experiments you already checked.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the documentation, issues, and discussions first.
+          required: true
+        - label: This question does not contain credentials, private data, or a security report.
+          required: true

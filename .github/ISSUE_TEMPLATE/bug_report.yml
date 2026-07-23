@@ -1,0 +1,73 @@
+name: Bug report
+description: Report reproducible behavior that appears incorrect
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for making the report precise. Do not include credentials, personal information, or suspected security vulnerabilities.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the repository is affected?
+      options:
+        - Game or rules
+        - Interface
+        - Lab or study tools
+        - Service or API
+        - Solver or research tooling
+        - Build, release, or documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+      placeholder: A short, specific description of the incorrect behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest sequence, fixture, hand, or example that reproduces the problem.
+      placeholder: |
+        1. Start with…
+        2. Choose…
+        3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened, and which rule or contract supports that expectation?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the version or commit and relevant browser, operating system, runtime, or device.
+      placeholder: Version or commit, browser or runtime, operating system
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional evidence
+      description: Add logs, notation, screenshots, or links that help explain the problem.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues for this behavior.
+          required: true
+        - label: This report does not contain a security vulnerability or private data.
+          required: true
