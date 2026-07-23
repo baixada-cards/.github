@@ -25,9 +25,9 @@ without checking out the whole house.
 | [`truco-solver`](https://github.com/baixada-cards/truco-solver) | CFR solving, policy interchange, experiments, and the research record |
 | [`truco-bots`](https://github.com/baixada-cards/truco-bots) | Runtime gameplay bots, provider integrations, and solved-policy play |
 | [`truco-server`](https://github.com/baixada-cards/truco-server) | The HTTP API and hosted-session service |
+| [`truco-web`](https://github.com/baixada-cards/truco-web) | Live play, the study lab and guide, localization, and the browser experience |
 
-The web room is being prepared now. Escopa and Bisca still have chairs at the
-table, but Truco comes first.
+Escopa and Bisca still have chairs at the table, but Truco comes first.
 
 <details>
 <summary><strong>Em português</strong></summary>
@@ -41,8 +41,7 @@ O projeto é desenvolvido de forma aberta. Os repositórios seguem as divisões 
 próprio sistema, para que cada parte possa ser entendida, testada, versionada e
 reutilizada sem baixar a casa inteira.
 
-A sala da web está sendo preparada agora. Escopa e Bisca continuam com lugar à
-mesa, mas Truco vem primeiro.
+Escopa e Bisca continuam com lugar à mesa, mas Truco vem primeiro.
 
 </details>
 
