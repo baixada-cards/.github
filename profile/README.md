@@ -1,24 +1,51 @@
-# Baixada
+<p align="center">
+  <a href="https://baixada.cards">
+    <img src="./assets/baixada-header.svg" alt="Baixada — a lab for the card games of the south" width="100%">
+  </a>
+</p>
 
-*a lab for the card games of the south*<br>
-*um laboratório para os jogos de carta do sul*
+<p align="center">
+  <a href="https://baixada.cards"><strong>baixada.cards</strong></a>
+  &nbsp;·&nbsp;
+  <em>bye-SHAH-dah</em> /baɪˈʃadɐ/
+</p>
 
-Baixada is a quiet home for the card games of the south. Truco comes first:
-faithful play, clear rules, and a lab for studying optimal decisions, hand by
-hand.
+Baixada is a quiet home for the card games of the south. Truco is the first
+room: faithful play, explicit rules, and a lab for studying optimal decisions
+hand by hand.
 
-Baixada é um lugar tranquilo para os jogos de carta do sul. Truco vem
-primeiro: partidas fiéis, regras claras e um laboratório para estudar jogadas
+The project is being built in public. Its repositories follow the boundaries
+of the system itself, so each can be understood, tested, versioned, and reused
+without checking out the whole house.
+
+| Room | What lives there |
+|---|---|
+| [`truco-spec`](https://github.com/baixada-cards/truco-spec) | Implementation-neutral rules, schemas, and executable fixtures |
+| [`truco-engine`](https://github.com/baixada-cards/truco-engine) | The authoritative rules engine and conformance implementations |
+| [`truco-solver`](https://github.com/baixada-cards/truco-solver) | CFR solving, policy interchange, experiments, and the research record |
+| [`truco-bots`](https://github.com/baixada-cards/truco-bots) | Runtime gameplay bots, provider integrations, and solved-policy play |
+| [`truco-server`](https://github.com/baixada-cards/truco-server) | The HTTP API and hosted-session service |
+
+The web room is being prepared now. Escopa and Bisca still have chairs at the
+table, but Truco comes first.
+
+<details>
+<summary><strong>Em português</strong></summary>
+<br>
+
+Baixada é uma casa tranquila para os jogos de carta do sul. Truco é a primeira
+sala: partidas fiéis, regras explícitas e um laboratório para estudar decisões
 ótimas, mão por mão.
 
-The work here is open source. These repositories hold the games, rules engines,
-study tools, experiments, and supporting infrastructure. Each repository
-documents its scope, maturity, and license.
+O projeto é desenvolvido de forma aberta. Os repositórios seguem as divisões do
+próprio sistema, para que cada parte possa ser entendida, testada, versionada e
+reutilizada sem baixar a casa inteira.
 
-O trabalho aqui é de código aberto. Estes repositórios reúnem os jogos, os
-motores de regras, as ferramentas de estudo, os experimentos e a infraestrutura
-de apoio. Cada repositório documenta seu escopo, sua maturidade e sua licença.
+A sala da web está sendo preparada agora. Escopa e Bisca continuam com lugar à
+mesa, mas Truco vem primeiro.
 
-[baixada.cards](https://baixada.cards)
+</details>
 
-<sub>Baixada is pronounced <em>bye-SHAH-dah</em> · /baɪˈʃadɐ/</sub>
+<p align="center">
+  <sub>est. 2026 · made in the south</sub>
+</p>
