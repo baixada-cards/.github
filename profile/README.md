@@ -12,7 +12,7 @@
 
 Baixada is a quiet home for the card games of the south. Truco is the first
 room: faithful play, explicit rules, and a lab for studying optimal decisions
-hand by hand.
+hand by hand. Escopa is the second: a small, tactile table for two.
 
 The project is being built in public. Its repositories follow the boundaries
 of the system itself, so each can be understood, tested, versioned, and reused
@@ -27,8 +27,9 @@ without checking out the whole house.
 | [`truco-bots`](https://github.com/baixada-cards/truco-bots) | Runtime gameplay bots, provider integrations, and solved-policy play |
 | [`truco-server`](https://github.com/baixada-cards/truco-server) | The HTTP API and hosted-session service |
 | [`truco-web`](https://github.com/baixada-cards/truco-web) | Live play, the study lab and guide, localization, and the browser experience |
+| [`escopa`](https://github.com/baixada-cards/escopa) | A complete local two-player game, with executable rules and a responsive tactile table |
 
-Escopa and Bisca still have chairs at the table, but Truco comes first.
+Bisca still has a chair at the table.
 
 <details>
 <summary><strong>Em português</strong></summary>
@@ -36,13 +37,13 @@ Escopa and Bisca still have chairs at the table, but Truco comes first.
 
 Baixada é uma casa tranquila para os jogos de carta do sul. Truco é a primeira
 sala: partidas fiéis, regras explícitas e um laboratório para estudar decisões
-ótimas, mão por mão.
+ótimas, mão por mão. Escopa é a segunda: uma pequena mesa tátil para dois.
 
 O projeto é desenvolvido de forma aberta. Os repositórios seguem as divisões do
 próprio sistema, para que cada parte possa ser entendida, testada, versionada e
 reutilizada sem baixar a casa inteira.
 
-Escopa e Bisca continuam com lugar à mesa, mas Truco vem primeiro.
+Bisca continua com lugar à mesa.
 
 </details>
 
