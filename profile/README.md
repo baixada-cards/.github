@@ -1,28 +1,62 @@
 <p align="center">
   <a href="https://baixada.cards">
-    <img src="./assets/baixada-header.svg" alt="Baixada — play, study, build" width="100%">
+    <img
+      src="./assets/baixada-table-banner.jpg"
+      alt="A brass lamp lights Spanish playing cards on a dark walnut table."
+      width="100%"
+    >
   </a>
 </p>
 
+<h1 align="center">Baixada</h1>
+
 <p align="center">
-  <a href="https://baixada.cards"><strong>baixada.cards</strong></a>
-  &nbsp;·&nbsp;
-  <em>bye-SHAH-dah</em> /baɪˈʃadɐ/
+  <strong>card games and optimal play</strong><br>
+  <em>jogos de carta e estratégia ótima</em>
 </p>
 
-Baixada solves card games using counterfactual regret minimization.
+<p align="center">
+  <a href="https://baixada.cards">baixada.cards</a>
+  &nbsp;·&nbsp;
+  <a href="https://truco.baixada.cards/en">Play Truco</a>
+  &nbsp;·&nbsp;
+  <a href="https://truco.baixada.cards/en/lab/study">Open Truco · Lab</a>
+  &nbsp;·&nbsp;
+  <a href="https://truco.baixada.cards/en/lab/study/guide">Read the guide</a>
+</p>
 
-Truco is the flagship: play a full heads-up match in the browser, then move
-into Truco · Lab to examine optimal play hand by hand.
+Baixada builds open-source card games and tools for studying optimal play.
+Truco is the flagship: play a heads-up match in the browser, inspect solved
+strategy in Truco · Lab, or read the field guide.
 
-| Repository | What lives there |
-|---|---|
-| [`truco-web`](https://github.com/baixada-cards/truco-web) | Live play, Truco · Lab, the guide, localization, and the browser experience |
-| [`escopa`](https://github.com/baixada-cards/escopa) | A complete local two-player game, with executable rules and a responsive tactile table |
-| [`design-system`](https://github.com/baixada-cards/design-system) | Brand guidance, canonical tokens, reusable marks, and the shared game-icon family |
-| [`truco-spec`](https://github.com/baixada-cards/truco-spec) | Implementation-neutral rules, schemas, and executable fixtures |
-| [`truco-engine`](https://github.com/baixada-cards/truco-engine) | The authoritative rules engine and conformance implementations |
-| [`truco-solver`](https://github.com/baixada-cards/truco-solver) | CFR solving, policy interchange, experiments, and the research record |
-| [`truco-bots`](https://github.com/baixada-cards/truco-bots) | Runtime gameplay bots, provider integrations, and solved-policy play |
-| [`truco-server`](https://github.com/baixada-cards/truco-server) | The HTTP API and hosted-session service |
-| [`truco`](https://github.com/baixada-cards/truco) | The exact compatibility manifest and assembled-system smoke test |
+<sub>A Baixada cria jogos de carta de código aberto e ferramentas para estudar
+estratégia ótima. O Truco é o projeto principal: jogue uma partida para dois
+no navegador, examine estratégias resolvidas no Truco · Lab ou leia o
+guia.</sub>
+
+### Play
+
+- [`truco-web`](https://github.com/baixada-cards/truco-web) — live Truco,
+  Truco · Lab, and the field guide
+- [`escopa`](https://github.com/baixada-cards/escopa) — a complete local
+  two-player Escopa table
+
+### Study
+
+- [`truco-solver`](https://github.com/baixada-cards/truco-solver) — CFR
+  solving, policy interchange, experiments, and the research record
+- [`truco-engine`](https://github.com/baixada-cards/truco-engine) — the
+  authoritative rules engine and conformance implementations
+- [`truco-spec`](https://github.com/baixada-cards/truco-spec) — rules,
+  schemas, and executable fixtures independent of any implementation
+
+### Build
+
+- [`baixada-web`](https://github.com/baixada-cards/baixada-web) — the public
+  Baixada home
+- [`design-system`](https://github.com/baixada-cards/design-system) — brand
+  guidance, canonical tokens, and reusable marks
+- [`truco-bots`](https://github.com/baixada-cards/truco-bots),
+  [`truco-server`](https://github.com/baixada-cards/truco-server), and
+  [`truco`](https://github.com/baixada-cards/truco) — runtime opponents,
+  hosted sessions, and the assembled-system contract
