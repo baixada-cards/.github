@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://baixada.cards">
-    <img src="./assets/baixada-header.svg" alt="Baixada — a lab for the card games of the south" width="100%">
+    <img src="./assets/baixada-header.svg" alt="Baixada — play, study, build" width="100%">
   </a>
 </p>
 
@@ -10,25 +10,26 @@
   <em>bye-SHAH-dah</em> /baɪˈʃadɐ/
 </p>
 
-Baixada is a quiet home for the card games of the south. Truco is the first
-room: faithful play, explicit rules, and a lab for studying optimal decisions
-hand by hand. Escopa is the second: a small, tactile table for two.
+Baixada builds card games as complete, inspectable systems: faithful play on
+the surface, explicit rules underneath, and tools for studying every decision.
 
-The project is being built in public. Its repositories follow the boundaries
-of the system itself, so each can be understood, tested, versioned, and reused
-without checking out the whole house.
+Truco is the flagship: play a full heads-up match in the browser, then move
+into Truco · Lab to examine optimal play hand by hand. Escopa is a smaller,
+tactile table for two. Everything is built in public, from executable rules
+and Rust engines to solved policies and the interfaces that bring them to the
+table.
 
-| Room | What lives there |
+| Repository | What lives there |
 |---|---|
-| [`truco`](https://github.com/baixada-cards/truco) | The exact compatibility manifest and assembled-system smoke test |
+| [`truco-web`](https://github.com/baixada-cards/truco-web) | Live play, Truco · Lab, the guide, localization, and the browser experience |
+| [`escopa`](https://github.com/baixada-cards/escopa) | A complete local two-player game, with executable rules and a responsive tactile table |
 | [`design-system`](https://github.com/baixada-cards/design-system) | Brand guidance, canonical tokens, reusable marks, and the shared game-icon family |
 | [`truco-spec`](https://github.com/baixada-cards/truco-spec) | Implementation-neutral rules, schemas, and executable fixtures |
 | [`truco-engine`](https://github.com/baixada-cards/truco-engine) | The authoritative rules engine and conformance implementations |
 | [`truco-solver`](https://github.com/baixada-cards/truco-solver) | CFR solving, policy interchange, experiments, and the research record |
 | [`truco-bots`](https://github.com/baixada-cards/truco-bots) | Runtime gameplay bots, provider integrations, and solved-policy play |
 | [`truco-server`](https://github.com/baixada-cards/truco-server) | The HTTP API and hosted-session service |
-| [`truco-web`](https://github.com/baixada-cards/truco-web) | Live play, the study lab and guide, localization, and the browser experience |
-| [`escopa`](https://github.com/baixada-cards/escopa) | A complete local two-player game, with executable rules and a responsive tactile table |
+| [`truco`](https://github.com/baixada-cards/truco) | The exact compatibility manifest and assembled-system smoke test |
 
 Bisca still has a chair at the table.
 
@@ -36,18 +37,20 @@ Bisca still has a chair at the table.
 <summary><strong>Em português</strong></summary>
 <br>
 
-Baixada é uma casa tranquila para os jogos de carta do sul. Truco é a primeira
-sala: partidas fiéis, regras explícitas e um laboratório para estudar decisões
-ótimas, mão por mão. Escopa é a segunda: uma pequena mesa tátil para dois.
+Baixada constrói jogos de cartas como sistemas completos e transparentes:
+partidas fiéis na superfície, regras explícitas por baixo e ferramentas para
+estudar cada decisão.
 
-O projeto é desenvolvido de forma aberta. Os repositórios seguem as divisões do
-próprio sistema, para que cada parte possa ser entendida, testada, versionada e
-reutilizada sem baixar a casa inteira.
+Truco é o carro-chefe: jogue uma partida completa de um contra um no navegador
+e depois entre no Truco · Lab para examinar jogadas ótimas, mão por mão. Escopa
+é uma mesa menor e tátil para dois. Tudo é desenvolvido de forma aberta, das
+regras executáveis e dos motores em Rust às estratégias resolvidas e às
+interfaces que as levam à mesa.
 
 Bisca continua com lugar à mesa.
 
 </details>
 
 <p align="center">
-  <sub>est. 2026 · made in the south</sub>
+  <sub>est. 2026 · built in public</sub>
 </p>
